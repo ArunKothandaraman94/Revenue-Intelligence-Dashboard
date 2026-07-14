@@ -167,7 +167,9 @@ This project demonstrates practical experience in:
 
 # 📷 Dashboard Preview
 
-> *(Add screenshots of your Power BI dashboard here.)*
+The dashboard provides an interactive overview of sales performance, profitability, customer trends, and regional insights.
+
+![Revenue Intelligence Dashboard](images/Global_Superstore_dashboard_image.png)
 
 ---
 
