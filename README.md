@@ -1,7 +1,12 @@
 # 📊 Revenue Intelligence Dashboard
 
 An end-to-end Business Intelligence project built using **PostgreSQL, Python, Power BI, and DAX** to analyze the Global Superstore dataset. The goal of this project is to transform raw sales data into meaningful business insights through data cleaning, analysis, and interactive dashboards.
+---
+# 📷 Dashboard Preview
 
+The dashboard provides an interactive overview of sales performance, profitability, customer trends, and regional insights.
+
+![Revenue Intelligence Dashboard](images/Global_Superstore_dashboard_image.png)
 ---
 
 # 📌 Project Overview
@@ -163,13 +168,6 @@ This project demonstrates practical experience in:
 - Data Visualization
 - Business Storytelling
 
----
-
-# 📷 Dashboard Preview
-
-The dashboard provides an interactive overview of sales performance, profitability, customer trends, and regional insights.
-
-![Revenue Intelligence Dashboard](images/Global_Superstore_dashboard_image.png)
 
 ---
 
