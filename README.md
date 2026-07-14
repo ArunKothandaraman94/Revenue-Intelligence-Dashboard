@@ -173,6 +173,38 @@ The analysis included:
 - Matplotlib
 
 ---
+# 📊 Python Visualizations
+
+The following visualizations were created using Python (Pandas and Matplotlib) to explore sales performance, profitability, and customer trends before building the Power BI dashboard.
+
+### Monthly Revenue Trend
+
+![Monthly Revenue](images/monthly_revenue_trend.png)
+
+---
+
+### Revenue & Profit by Category
+
+![Revenue by Category](images/revenue_profit_category.png)
+
+---
+
+### Revenue by Market
+
+![Revenue by Market](images/revenue_by_market.png)
+
+---
+
+### Top 10 Loss-Making Products
+
+![Top Loss Products](images/top_loss_products.png)
+
+---
+
+### Discount vs Profit
+
+![Discount vs Profit](images/discount_vs_profit.png)
+---
 
 # 📊 Power BI Dashboard
 
