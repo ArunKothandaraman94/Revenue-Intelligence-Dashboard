@@ -17,6 +17,15 @@ The dashboard provides an interactive view of sales performance, profitability, 
 ![Revenue Intelligence Dashboard](images/Global_Superstore_dashboard_image.png)
 
 ---
+## 📥 Download the Dashboard
+
+The complete interactive Power BI report is available in the **dashboard** folder.
+
+📄 **File:** `Global_superstore_dashboard.pbix`
+
+> Open the `.pbix` file using **Microsoft Power BI Desktop** to explore the interactive report, slicers, and DAX measures.
+
+---
 
 # 📌 Project Summary
 
