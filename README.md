@@ -1,31 +1,56 @@
-# 📊 Revenue Intelligence Dashboard
+# 📊 Global Superstore Revenue Intelligence Dashboard
 
-An end-to-end Business Intelligence project built using **PostgreSQL, Python, Power BI, and DAX** to analyze the Global Superstore dataset. The goal of this project is to transform raw sales data into meaningful business insights through data cleaning, analysis, and interactive dashboards.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-02569B?style=for-the-badge)
+
+An end-to-end Business Intelligence project built using **PostgreSQL, Python, Power BI, and DAX** to analyze the Global Superstore dataset. This project demonstrates the complete BI workflow—from cleaning raw data to building an interactive dashboard that helps answer real business questions.
+
 ---
+
 # 📷 Dashboard Preview
 
-The dashboard provides an interactive overview of sales performance, profitability, customer trends, and regional insights.
+The dashboard provides an interactive view of sales performance, profitability, customer behavior, and regional trends.
 
 ![Revenue Intelligence Dashboard](images/Global_Superstore_dashboard_image.png)
+
+---
+
+# 📌 Project Summary
+
+| Metric | Details |
+|---------|---------|
+| Dataset | Global Superstore |
+| Total Records | 51,290 |
+| Database | PostgreSQL |
+| Programming Language | Python |
+| Visualization Tool | Power BI |
+| Dashboard Pages | 2 |
+| DAX Measures | Sales, Profit, Previous Year Sales, Return Rate, YoY Comparison |
+| Business Questions Solved | 10+ |
+
 ---
 
 # 📌 Project Overview
 
-Retail companies generate thousands of transactions every day, making it difficult to identify trends and measure business performance from raw data alone.
+Retail businesses generate thousands of sales transactions every day. While the data contains valuable information, it becomes difficult to identify trends, monitor performance, and make informed business decisions without proper analysis.
 
-In this project, I built a complete Business Intelligence solution that helps answer key business questions related to sales, profitability, customer behavior, and regional performance. The project follows a real-world BI workflow—from importing and cleaning the data to creating an interactive Power BI dashboard for decision-makers.
+In this project, I developed an end-to-end Business Intelligence solution that transforms raw retail sales data into meaningful insights. Using SQL for data preparation, Python for exploratory analysis, and Power BI for visualization, I built an interactive dashboard that allows users to monitor key business metrics and explore sales performance across different regions, products, and customer segments.
 
 ---
 
 # 🎯 Business Problem
 
-The objective was to help management answer questions such as:
+The objective of this project was to answer important business questions such as:
 
 - Which markets generate the highest revenue?
-- Which products contribute the most profit?
-- Who are the top-performing customers?
+- Which product categories are the most profitable?
+- Who are the highest-value customers?
 - How are sales changing over time?
-- Which regions require more business attention?
+- Which regions require greater business attention?
+- What is the return rate across orders?
 
 ---
 
@@ -33,10 +58,13 @@ The objective was to help management answer questions such as:
 
 - PostgreSQL
 - SQL
-- Python (Pandas & Matplotlib)
+- Python
+- Pandas
+- Matplotlib
 - Power BI
 - DAX
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
@@ -46,16 +74,25 @@ The objective was to help management answer questions such as:
 Global Superstore Dataset
             │
             ▼
-Data Cleaning (PostgreSQL)
+Import into PostgreSQL
+            │
+            ▼
+Data Cleaning & Validation
             │
             ▼
 Business Analysis using SQL
             │
             ▼
-Data Exploration using Python
+Exploratory Data Analysis using Python
             │
             ▼
-Interactive Dashboard in Power BI
+Power BI Data Modeling
+            │
+            ▼
+DAX Measure Creation
+            │
+            ▼
+Interactive Dashboard
             │
             ▼
 Business Insights & Recommendations
@@ -65,35 +102,35 @@ Business Insights & Recommendations
 
 # 🗄️ SQL Analysis
 
-### Data Preparation
+## Data Preparation
 
-Before starting the analysis, the dataset was prepared in PostgreSQL by:
+The dataset was prepared using PostgreSQL by:
 
 - Importing the Global Superstore dataset
 - Renaming columns using snake_case naming convention
 - Checking for missing values
 - Validating data quality
-- Formatting date columns for analysis
+- Formatting date columns
+- Preparing the dataset for business analysis
 
-### Business Questions Solved
+## Business Questions Solved
 
-Using SQL, I analyzed the dataset to answer several business questions, including:
+The SQL analysis answered several business questions including:
 
-- Total Revenue
+- Total Sales
 - Total Profit
 - Profit Margin
-- Sales by Category
 - Sales by Market
 - Sales by Region
+- Sales by Category
+- Top Customers
+- Top Products
 - Monthly Sales Trend
 - Year-over-Year Growth
 - Month-over-Month Growth
-- Top Customers
-- Top Products
+- Running Revenue Analysis
 
-### SQL Concepts Applied
-
-Throughout the project, I used:
+## SQL Concepts Used
 
 - Aggregate Functions
 - GROUP BY
@@ -102,23 +139,26 @@ Throughout the project, I used:
 - Window Functions
 - RANK()
 - LAG()
-- Date Functions
+- DATE_TRUNC()
+- EXTRACT()
 
 ---
 
 # 🐍 Python Analysis
 
-Python was used to perform exploratory data analysis and visualize business trends.
+Python was used to perform exploratory data analysis and identify business trends before building the dashboard.
 
 The analysis included:
 
+- Data cleaning
 - Sales trend analysis
 - Regional performance analysis
-- Category-wise sales analysis
+- Product category analysis
 - Customer analysis
-- Business insight generation
+- Business insights
+- Data visualization
 
-Libraries Used:
+### Libraries Used
 
 - Pandas
 - Matplotlib
@@ -127,34 +167,38 @@ Libraries Used:
 
 # 📊 Power BI Dashboard
 
-The final dashboard provides an interactive view of business performance through:
+The Power BI dashboard was designed to provide an interactive and user-friendly experience.
 
-- KPI Cards
+### Dashboard Features
+
+- Executive KPI Cards
 - Interactive Slicers
 - Sales Trend Analysis
+- Profit Analysis
+- Product Performance
 - Regional Performance
-- Category Performance
 - Customer Analysis
 - Time Intelligence using DAX
+- Previous Year Comparison
 - Return Order Analysis
 
 ---
 
 # 💡 Key Business Insights
 
-- APAC emerged as the highest-performing market in terms of total sales.
-- Technology products generated the highest revenue and profitability.
-- Consumer customers contributed the largest share of overall sales.
-- A small group of customers accounted for a significant portion of total revenue.
-- High discount levels reduced profitability for several products despite strong sales.
-- Sales showed consistent growth over time with noticeable seasonal peaks.
-- The return rate remained relatively low, indicating effective order fulfillment.
+- APAC generated the highest overall sales among all markets.
+- Technology products delivered the highest revenue and profitability.
+- Consumer customers contributed the largest share of total sales.
+- A small number of customers generated a significant portion of overall revenue.
+- Heavy discounting reduced profitability for several high-selling products.
+- Sales showed consistent growth over time with seasonal peaks.
+- The overall return rate remained relatively low, indicating efficient order fulfillment.
 
 ---
 
 # 📈 Skills Demonstrated
 
-This project demonstrates practical experience in:
+This project helped strengthen practical skills in:
 
 - SQL Query Writing
 - PostgreSQL
@@ -163,14 +207,47 @@ This project demonstrates practical experience in:
 - Python
 - Power BI
 - DAX
+- Data Modeling
 - Dashboard Design
+- KPI Development
 - Business Intelligence
 - Data Visualization
 - Business Storytelling
+- Git & GitHub
 
+---
+
+# 📚 What I Learned
+
+While working on this project, I gained hands-on experience in:
+
+- Writing business-focused SQL queries
+- Using Window Functions and Common Table Expressions
+- Cleaning and preparing real-world datasets
+- Creating reusable DAX measures
+- Building interactive Power BI dashboards
+- Designing dashboards for business users
+- Presenting analytical findings through visual storytelling
+
+---
+
+# 🚀 Future Improvements
+
+Planned enhancements include:
+
+- Customer Segmentation (RFM Analysis)
+- Sales Forecasting
+- Drill-through Pages
+- Dynamic Tooltips
+- Advanced DAX Measures
+- Power BI Service Deployment
 
 ---
 
 # 🎯 Conclusion
 
-This project demonstrates the complete Business Intelligence workflow—from raw data to interactive dashboards. By combining SQL, Python, and Power BI, the project converts transactional data into meaningful insights that can help businesses monitor performance, identify growth opportunities, and support data-driven decision-making.
+This project demonstrates the complete Business Intelligence workflow—from importing raw data into PostgreSQL to creating an interactive Power BI dashboard.
+
+By combining SQL, Python, and Power BI, the project transforms transactional retail data into meaningful insights that can help businesses monitor performance, identify opportunities for growth, and support data-driven decision-making.
+
+If you have any feedback or suggestions, feel free to connect or raise an issue in this repository.
